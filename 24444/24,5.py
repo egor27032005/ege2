@@ -1,0 +1,8 @@
+file=open('64368_34573271522772780_doc.txt', 'r')
+s=file.readline().strip()
+s=s.replace("BD","B D")
+s=s.replace("BA","B A")
+s=s.replace("BD","B D")
+s=s.replace("BA","B A")
+m=s.split()
+print(len(max(m, key=len)))
